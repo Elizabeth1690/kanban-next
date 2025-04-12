@@ -20,7 +20,7 @@ Asegúrate de tener instalado lo siguiente:
 ```bash
 # Clonar el repositorio
 git clone <url-repositorio>
-cd diccionario-web
+cd kanban-next
 
 # Instalar todas las dependencias del proyecto
 npm install
