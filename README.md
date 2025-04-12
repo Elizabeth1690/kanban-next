@@ -1,8 +1,8 @@
-# Diccionario Web con Next.js, TypeScript y Tailwind CSS
+# Kanba con Next.js, TypeScript y Tailwind CSS
 
 ## 📌 Descripción
 
-Aplicación web de diccionario que utiliza **Dictionary API** para buscar definiciones en inglés, con características como **selector de fuentes, modo oscuro/claro y diseño responsivo**.
+Aplicación web**Kanba**que permite crear tareas, asignarle a los usuarios sus tareas correspondientes **.
 
 ---
 
@@ -34,9 +34,7 @@ El proyecto utiliza las siguientes tecnologías principales:
 
 - **next**, **react**, **react-dom**, **typescript**
 - **tailwindcss**, **postcss**, **autoprefixer**
-- **jotai**, **@tanstack/react-query**, **next-themes**
-- **react-icons**, **react-cool-onclickoutside**
-- **clsx**, **tailwind-merge**
+- **json-server**
 
 🌟 **Todas se instalarán automáticamente con** `npm install`.
 
@@ -58,37 +56,15 @@ Asegúrate de que `tailwind.config.js` incluya:
 darkMode: "class";
 ```
 
-👉 **Colores personalizados:**
-
-- `purple: "#a445ed"`
-
----
-
-## 📂 Estructura básica
-
-```plaintext
-/app
-  ├─ layout.tsx
-  ├─ page.tsx
-  ├─ Provider.tsx
-  ├─ atom.ts
-  ├─ type.ts
-/components
-  ├─ FontSelector.tsx
-  ├─ ThemeToggleButton.tsx
-  ├─ WordDefinition.tsx
-  ├─ WordSearchBar.tsx
-/utils
-  ├─ cn.ts
-```
-
----
 
 ## ▶️ Ejecución
 
 ```bash
-# Modo desarrollo
+# Modo desarrollo frontend
 npm run dev
+
+# Modo desarrollo backend
+npm run backend
 
 # Construcción para producción
 npm run build
@@ -101,16 +77,9 @@ npm start
 
 - **Componentes:** Separación modular, código tipado con TypeScript
 - **Cliente/Servidor:** Uso correcto de `"use client"` donde es necesario
-- **Estado:** Jotai para preferencias globales, React Query para datos
-- **UI/UX:** Tema oscuro/claro, opciones de fuentes, diseño responsivo
-- **Rendimiento:** Caché con React Query, estructura de componentes optimizada
+- **Estado:** Context API
+- **UI/UX:** diseño responsivo
 
 ---
-
-## 🛠️ Solución de problemas comunes
-
-- Verifica la conexión y funcionamiento de la API
-- Confirma la configuración correcta del tema en `Provider.tsx`
-- Ejecuta la verificación de tipos con TypeScript  
-  kdidkdidkdjjddj
-  🌐 **La aplicación estará disponible en** `http://localhost:3000`.
+  🌐 **La aplicación estará disponible en** `http://localhost:3000` para el front
+    **La aplicación estará disponible en** `http://localhost:3001` para el backend
