@@ -1,0 +1,28 @@
+{
+  "tasks": [
+    {
+      "id": "1b1a"
+    },
+    {
+      "id": "314c",
+      "title": "responsive",
+      "description": "responsive a card ",
+      "assignedTo": "Sofia Garcia ",
+      "status": "pendiente"
+    }
+  ],
+  "user": [
+    {
+      "id": "1",
+      "name": "Camila Vargas"
+    },
+    {
+      "id": "2",
+      "name": "Sofia Garcia "
+    },
+    {
+      "id": "3",
+      "name": "Camilo Cano "
+    }
+  ]
+}
